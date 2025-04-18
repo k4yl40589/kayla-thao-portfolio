@@ -1,0 +1,270 @@
+header{
+        font-family: "fractul-variable",sans-serif;
+        font-variation-settings: 'wght' 400;
+        padding-top: 3rem;
+}
+a{
+        color: black;
+        text-decoration: none;
+}
+a:hover{
+        color: deeppink;
+}
+nav{
+  display: flex;
+  justify-content: space-around
+}
+body{
+        background: radial-gradient(#FFFFFF, #f5e1ea);
+        margin: 0;
+}
+h1{
+    font-family: "scale-variable",sans-serif;
+    font-variation-settings: 'wdth' 100, 'wght' 400;
+    font-size: 7rem;
+    line-height: 100%;
+    padding-left: 1rem;
+}
+.des{
+  font-family: "fractul-variable",sans-serif;
+  font-variation-settings: 'wght' 400;
+  font-size: 2rem;
+  padding-left: 1rem;
+  padding-top: 0rem;
+  display: block;
+  line-height: 1rem;
+}
+div{
+padding-top: 7rem;
+}
+.workexample{
+  background-color: #FFFADF;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-align: justify;
+
+}
+.workexample{
+  display: grid;
+  grid-template-columns: 3rem 1fr 3rem;
+  grid-template-rows: 3rem 1fr 5rem 3rem 2rem;
+  font-family: "fractul-variable",sans-serif;
+  font-variation-settings: 'wght' 400;
+  justify-items: end;
+}
+.brochure{
+  height: auto;
+  max-width: 100%;
+  grid-area: 2/2/3/3;
+}
+.offer{
+  grid-area: 3/2/4/3;
+  
+}
+.workexamplebutton{
+  grid-area: 4/2/5/3;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: .75rem 1rem 1rem 1rem;
+  color: black;
+  font-family: "scale-variable",sans-serif;
+  font-variation-settings: 'wdth' 100, 'wght' 400;
+  font-size: 1rem;
+}
+.workexamplebutton:hover{
+  background-color: rgb(156, 173, 239);
+  color: hotpink;
+}
+.moreme{
+  background-color: rgb(156, 173, 239);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  display: block;
+  font-family: "scale-variable",sans-serif;
+  font-variation-settings: 'wdth' 100, 'wght' 400;
+  padding-left: 2rem;
+  font-size: 2rem;
+  justify-items: left;
+}
+.moremebutton{
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: .75rem 1rem 1rem 1rem;
+  color: black;
+  font-family: "scale-variable",sans-serif;
+  font-variation-settings: 'wdth' 100, 'wght' 400;
+  font-size: 1rem;
+}
+.moremebutton:hover{
+  background-color: rgb(255, 198, 233);
+  color: hotpink;
+}
+.footer1{
+  background: radial-gradient(#FFFFFF, #f5e1ea);
+  padding-top: 1rem;
+  display: grid;
+  grid-template-columns: 2rem 1fr 1fr 2rem;
+  grid-template-rows: 6rem 3rem 1fr ;
+}
+.contact{
+  font-family: "scale-variable",sans-serif;
+  font-variation-settings: 'wdth' 100, 'wght' 400;
+  font-size: 3rem;
+  justify-items: left;
+  grid-area: 1/2/2/4;
+}
+.collab{
+  font-family: "fractul-variable",sans-serif;
+  font-variation-settings: 'wght' 300;
+  grid-area: 2/2/3/3;
+}
+h3{
+  font-family: "fractul-variable",sans-serif;
+  font-variation-settings: 'wght' 300;
+  grid-area: 3/2/4/3;
+}
+.insta{
+grid-area: 3/3/4/4;
+justify-self: end;
+}
+
+.me{
+  height: auto;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+.abme, .skills{
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.title{
+  font-size: 3rem;
+  padding-left: 3rem;
+}
+.intro{
+  font-family: "scale-variable",sans-serif;
+  font-variation-settings: 'wdth' 100, 'wght' 400;
+  font-size: 2rem;
+  margin: 1rem 0rem 1rem 0rem;
+}
+.abme>p{
+  font-family: "fractul-variable",sans-serif;
+  font-variation-settings: 'wght' 300;
+}
+.skills>ul{
+  font-family: "fractul-variable",sans-serif;
+  font-variation-settings: 'wght' 300;
+  padding-bottom: 2rem;
+}
+.skills>h3{
+  font-family: "scale-variable",sans-serif;
+  font-variation-settings: 'wdth' 100, 'wght' 400;
+  font-size: 2rem;
+  margin: 1rem 0rem 1rem 0rem;
+}
+.abmefooter{
+  background-color:rgb(247, 244, 196);
+  padding-top: 1rem;
+  display: grid;
+  grid-template-columns: 2rem 1fr 1fr 2rem;
+  grid-template-rows: 6rem 3rem 1fr ;
+}
+.contact{
+  font-family: "scale-variable",sans-serif;
+  font-variation-settings: 'wdth' 100, 'wght' 400;
+  font-size: 3rem;
+  justify-items: left;
+  grid-area: 1/2/2/4;
+}
+.collab{
+  font-family: "fractul-variable",sans-serif;
+  font-variation-settings: 'wght' 300;
+  grid-area: 2/2/3/3;
+}
+h3{
+  font-family: "fractul-variable",sans-serif;
+  font-variation-settings: 'wght' 300;
+  grid-area: 3/2/4/3;
+}
+.insta{
+grid-area: 3/3/4/4;
+justify-self: end;
+}
+
+
+@media(min-width: 1100px){
+  header{
+    padding-top: 2rem;
+  }
+  nav{
+    padding-left: 4rem;
+    padding-right: 4rem;
+display: flex;
+justify-content: space-between;
+font-size: 1.5rem ;
+  }
+  h1{
+    font-size: 12rem;
+
+  }
+  .des{
+    font-size: 3rem;
+    display: inline;
+  }
+  div{
+    padding-bottom: 2rem;
+    padding-top: 0rem;
+  }
+  .workexample{
+    display: grid;
+    grid-template-columns: 3rem 1fr 1fr 3rem ;
+    grid-template-rows: 5rem 1fr 1fr 5rem;
+    text-align: justify;
+    justify-content: end;
+  }
+  .brochure{
+    height: auto;
+    max-width: 100%;
+    grid-area: 2/2/4/3
+  }
+  .offer{
+    grid-area: 2/3/3/4;
+    padding-left: 3rem;
+    padding-top: 6rem;
+    font-size: 1.75rem;
+  }
+  .workexamplebutton{
+    grid-area: 3/3/4/4;
+    padding: 1rem 3rem 1rem 3rem;
+    font-size: 2rem;
+    margin-bottom: auto;
+    border-radius: 50px;
+  }
+  .who{
+font-size: 6rem;
+margin-bottom: 0px;
+  }
+  .title{
+    font-size: 5rem;
+    margin-bottom: 2rem;
+  }
+  .me{
+    height: auto;
+    max-width: 100%;
+    margin: auto;
+  }
+  .abme{
+    padding: 0rem 25rem 0rem 25rem;
+  }
+  .skills{
+    padding: 0rem 25rem 0rem 25rem;
+  }
+  .moremebutton{
+    font-size: 2rem;
+    border-radius: 50px;
+  }
+}
+
+
+

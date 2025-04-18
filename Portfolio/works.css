@@ -1,0 +1,109 @@
+header{
+    font-family: "fractul-variable",sans-serif;
+    font-variation-settings: 'wght' 400;
+    padding-top: 3rem;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: deeppink;
+}
+nav{
+display: flex;
+justify-content: space-around
+}
+body{
+    background: radial-gradient(#FFFFFF, #f5e1ea);
+    margin: 0;
+}
+.myworks{
+    font-family: "scale-variable",sans-serif;
+      font-variation-settings: 'wdth' 100, 'wght' 400;
+      font-size: 3rem;
+      padding-left: 3rem;
+      margin-bottom: 0rem;
+  }
+img{
+    height: auto;
+    max-width: 100%;
+    margin: auto;
+}
+section{
+    padding-left: 3rem;
+    padding-right:3rem
+
+}
+section>h2{
+    font-family: "scale-variable",sans-serif;
+    font-variation-settings: 'wdth' 100, 'wght' 400;
+    font-size: 2.5rem;
+    margin: 1px;
+}
+section>p{
+    font-family: "fractul-variable",sans-serif;
+  font-variation-settings: 'wght' 300;
+  font-size: 1.25rem;
+  margin: 2px;
+  margin-bottom: 3rem;
+}
+.card1{
+    padding-bottom: 1.5rem;
+}
+footer{
+    background-color: rgb(247, 244, 196);
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: 2rem 1fr 1fr 2rem;
+    grid-template-rows: 6rem 3rem 1fr ;
+  }
+  .contact{
+    font-family: "scale-variable",sans-serif;
+    font-variation-settings: 'wdth' 100, 'wght' 400;
+    font-size: 3rem;
+    justify-items: left;
+    grid-area: 1/2/2/4;
+  }
+  .collab{
+    font-family: "fractul-variable",sans-serif;
+    font-variation-settings: 'wght' 300;
+    grid-area: 2/2/3/3;
+  }
+  h3{
+    font-family: "fractul-variable",sans-serif;
+    font-variation-settings: 'wght' 300;
+    grid-area: 3/2/4/3;
+  }
+  .insta{
+  grid-area: 3/3/4/4;
+  justify-self: end;
+  }
+
+  @media(min-width: 1100px){
+    header{
+      padding-top: 2rem;
+    }
+    nav{
+      padding-left: 4rem;
+      padding-right: 4rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem ;
+    }
+section{
+  text-align: center;
+}
+section>h2, p{
+text-align: start;
+padding-left: 13rem;
+} 
+
+.myworks{
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+section>img{
+  max-width: 70%;
+}
+}
